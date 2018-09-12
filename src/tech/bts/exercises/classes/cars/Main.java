@@ -6,11 +6,12 @@ public class Main {
 
         Car ferrari = new Car("Ferrari GTO", 200);
 
-
         Car audi = new Car("Audi TT", 220);
 
+        ferrari.printStatus();
 
-        System.out.println( ferrari.model +" driving at " + ferrari.speed + " km/h"  );
-        System.out.println( audi.model +" driving at " + audi.speed + " km/h"  );
+        audi.printStatus();
+
+
     }
 }
