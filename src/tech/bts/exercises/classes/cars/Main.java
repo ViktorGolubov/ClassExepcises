@@ -7,7 +7,11 @@ public class Main {
         Car ferrari = new Car("Ferrari GTO");
         Car audi = new Car("Audi TT");
 
-        ferrari.speed = 200;
+        ferrari.accelerate(100);
+        ferrari.accelerate(50);
+        ferrari.accelerate(150);
+        ferrari.accelerate(99);
+        ferrari.accelerate(50);
 
         ferrari.printStatus();
 
