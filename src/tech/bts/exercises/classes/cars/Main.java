@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car ferrari = new Car("Ferrari GTO");
-        Car audi = new Car("Audi TT");
+        Car ferrari = new Car("Ferrari GTO", 300);
+        Car audi = new Car("Audi TT", 250);
 
-        ferrari.accelerate(100);
-        audi.accelerate(30);
+        ferrari.accelerate(500);
+        audi.accelerate(500);
 
         System.out.println(ferrari);
         System.out.println(audi);
