@@ -10,8 +10,8 @@ public class Main {
         ferrari.accelerate(100);
         audi.accelerate(30);
 
-        ferrari.printStatus();
-        audi.printStatus();
+        System.out.println(ferrari);
+        System.out.println(audi);
 
         int speed1 = ferrari.getSpeed();
         int speed2 = audi.getSpeed();

@@ -41,10 +41,9 @@ public class Car {
         return result;
     }
 
-    public void printStatus() {
-        System.out.println (this.model +" driving at " + this.speed + " km/h");
-
-
+    public String toString() {
+        String result = this.model +" driving at " + this.speed + " km/h";
+        return result;
     }
 
 }
