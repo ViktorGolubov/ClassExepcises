@@ -3,8 +3,8 @@ package tech.bts.exercises.classes.cars;
 public class Car {
 
     // Fields/ properties
-    String model;
-    int speed;
+  private String model;
+  private int speed;
 
     // Constructor
     public Car (String model) {
@@ -33,6 +33,12 @@ public class Car {
 
         }
 
+    }
+
+    public int getSpeed() {
+
+        int result = this.speed;
+        return result;
     }
 
     public void printStatus() {
