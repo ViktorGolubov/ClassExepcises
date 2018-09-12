@@ -26,6 +26,14 @@ public class Car {
 
 
     }
+    public void decelerate (int amount) {
+        this.speed = this.speed - amount;
+        if (this.speed < 0) {
+            this.speed = 0;
+
+        }
+
+    }
 
     public void printStatus() {
         System.out.println (this.model +" driving at " + this.speed + " km/h");
